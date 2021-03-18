@@ -1,4 +1,26 @@
+import os
 import re
+import numpy as np
+import pandas as pd
+import cv2
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+import unidecode
+import codecs
+
+# import spacy
+# from wordcloud import WordCloud, STOPWORDS
+# from fuzzywuzzy import fuzz
+# import cudf
+# import cupy
+# from cuml.feature_extraction.text import TfidfVectorizer
+# from cuml.common.sparsefuncs import csr_row_normalize_l2
+
+from sklearn.feature_extraction.text import CountVectorizer
+from collections import Counter
+
+import gc
 
 def plot_bar_chart(x, y, title, rotation_angle=45):
     plt.figure(figsize = (20, 15))
