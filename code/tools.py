@@ -9,9 +9,9 @@ import seaborn as sns
 import unidecode
 import codecs
 
-# import spacy
-# from wordcloud import WordCloud, STOPWORDS
-# from fuzzywuzzy import fuzz
+import spacy
+from wordcloud import WordCloud, STOPWORDS
+from fuzzywuzzy import fuzz
 # import cudf
 # import cupy
 # from cuml.feature_extraction.text import TfidfVectorizer
